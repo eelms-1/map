@@ -24,6 +24,9 @@
 	    var marker1 = L.marker([51.12993, -2.73331]).addTo(mymap);
 	    marker1.bindPopup("<img style='width: 200px' src='ITandComputers.jpg'><p><b>C Block</b></p><br>Engineering");
 	   //marker.bindPopup("<b>m Block</m><br>m block").openPopup()
+	   var marker = L.marker([44.12993, -0.73331]).addTo(mymap);
+	    marker2.bindPopup("<img style='width: 200px' src='ITandComputers.jpg'><p><b>C Block</b></p><br>reception");
+	   //marker.bindPopup("<b>m Block</m><br>m block").openPopup()
     </script>
   </body>    
 </html>
