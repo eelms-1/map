@@ -21,9 +21,9 @@
 	    var marker = L.marker([51.12983, -2.73341]).addTo(mymap);
 	    marker.bindPopup("<img style 'width: 200x'<img src='ITandComputers.jpg'<br/><b>C Block</b><br>T-Level Digital");
 	    //marker.bindPopup("<b>C Block</b><br>T-Level Digital").openPopup()
-	    var marker = L.marker1([49.12983, -5.73341]).addTo(mymap);
-	    marker1.bindPopup("<img style 'width: 200px'<img src='engineering.jpg'<br/><b>m Block</b><br>=m block");
-	    //marker1.bindPopup("<a>m Block</m><br>m block").openPopup();
+	    var marker = L.marker([49.12983, -5.73341]).addTo(mymap);
+	    marker.bindPopup("<img style 'width: 200px'<img src='engineering.jpg'<br/><b>M Block</b><br>m block");
+	    //marker.bindPopup("<b>m Block</m><br>m block").openPopup()
     </script>
   </body>    
 </html>
