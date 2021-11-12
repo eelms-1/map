@@ -29,6 +29,6 @@
 	   //marker.bindPopup("<b>m Block</m><br>m block").openPopup()
    </script>
 map.addControl(new L.Control.Fullscreen({
-    title: mymap
+    title: ({mymap})
   </body>    
 </html>
