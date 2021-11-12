@@ -27,13 +27,17 @@
 	   var marker = L.marker([51.12991, -2.63331]).addTo(mymap);
 	    marker2.bindPopup("<img style='width: 200px' src='ITandComputers.jpg'><p><b>C Block</b></p><br>reception");
 	   //marker.bindPopup("<b>m Block</m><br>m block").openPopup()
-   var circle = L.circle([51.12983, -2.73341], {
-    color: 'red',
-    fillColor: '#f03',
-    fillOpacity: 0.5,
-    radius: 500
    </script>
-map.addControl(new L.Control.Fullscreen({
-    title: ({mymap})
+ ap.isFullscreen() // Is the map fullscreen?
+map.toggleFullscreen() // Either go fullscreen, or cancel the existing fullscreen.
+
+// `fullscreenchange` Event that's fired when entering or exiting fullscreen.
+map.on('fullscreenchange', function () {
+    if (map.isFullscreen()) {
+        console.log('entered fullscreen');
+    } else {
+        console.log('exited fullscreen');
+    }
+});
   </body>    
 </html>
