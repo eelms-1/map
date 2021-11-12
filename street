@@ -28,7 +28,7 @@
 	    marker2.bindPopup("<img style='width: 200px' src='ITandComputers.jpg'><p><b>C Block</b></p><br>reception");
 	   //marker.bindPopup("<b>m Block</m><br>m block").openPopup()
    </script>
-  ap.isFullscreen() // Is the map fullscreen?
-map.toggleFullscreen() // Either go fullscreen, or cancel the existing fullscreen.
+map.addControl(new L.Control.Fullscreen({
+    title: mymap
   </body>    
 </html>
